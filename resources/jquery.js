@@ -57,9 +57,11 @@ $(document).ready(function () {
     if (icon.hasClass('fa-bars')) {
       icon.addClass('fa-times');
       icon.removeClass('fa-bars ');
+      $('.sticky').css('height', '35%');
     } else {
       icon.addClass('fa-bars');
       icon.removeClass('fa-times');
+      $('.sticky').css('height', '7.5%');
     }
   });
 });
