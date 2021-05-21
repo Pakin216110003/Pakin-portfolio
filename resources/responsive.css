@@ -1,9 +1,7 @@
-@media (min-width: 1281px) {
-  /* CSS */
-  h1 {
-    color: red;
-  }
-}
+/* @media (min-width: 1281px) {
+
+
+} */
 
 /* 
     ##Device = Laptops, Desktops
@@ -12,9 +10,7 @@
 
 @media only screen and (max-width: 1280px) {
   /* CSS */
-  h1 {
-    color: green;
-  }
+
   .sec2-img img {
     width: 300px;
 
@@ -76,9 +72,7 @@
 
 @media only screen and (max-width: 1024px) {
   /* CSS */
-  h1 {
-    color: blue;
-  }
+
   section h1 {
     font-size: 25px;
   }
@@ -205,9 +199,7 @@
 
 @media only screen and (max-width: 767px) {
   /* CSS */
-  h1 {
-    color: yellow;
-  }
+
   section h1 {
     font-size: 20px;
   }
@@ -264,9 +256,77 @@
     ##Screen = B/w 320px to 479px
   */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   /* CSS */
-  h1 {
-    color: rgb(128, 0, 64);
+
+  .home-logo {
+    font-size: 8px;
+  }
+  .hero-text-box h1 {
+    font-size: 15px;
+  }
+  .btn--sec2 button,
+  p {
+    font-size: 10px;
+  }
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    font-size: 12px;
+  }
+
+  .main-nav {
+    float: left;
+    margin-left: 35%;
+    margin-top: 35px;
+  }
+  .sec2-img img {
+    margin-left: 32%;
+  }
+  .btn--sec2 button {
+    font-size: 6px;
+    font-weight: 500s;
+  }
+  .skill-bar {
+    margin-top: 100%;
+  }
+  .video-picture img {
+    height: 100px;
+    margin-left: -60px;
+  }
+  .video-info {
+    width: 125px;
+    height: 200px;
+    left: -58px;
+  }
+  .video-info .info p,
+  .video-info .info span ul li {
+    font-size: 8px;
+  }
+  .video-info .info p {
+    padding-top: 20px;
+  }
+  .video-nav {
+    width: 80%;
+  }
+  .video-nav ul li {
+    font-size: 10px;
+    margin-left: 100px;
+  }
+  .video-picture i {
+    font-size: 30px;
+    left: 15px;
+    top: 40px;
+  }
+  .cv-button {
+    margin-left: 15%;
+  }
+  .form {
+    width: 60%;
+    margin-left: 15%;
+  }
+  .social-contact ul li {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 5px;
   }
 }
