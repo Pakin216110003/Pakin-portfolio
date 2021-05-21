@@ -451,12 +451,14 @@ h1 {
   width: 40%;
   margin-left: 60%;
   padding-right: 10px;
+  font-size: 15px;
 }
 .video-picture i {
   font-size: 50px;
-  position: relative;
-  left: -320px;
-  top: 10px;
+  position: absolute;
+  left: 43%;
+  top: 25%;
+  margin-left: -10%;
   color: black;
   transition: width 0.6s;
   cursor: pointer;
@@ -468,6 +470,12 @@ h1 {
   margin-left: 270px;
   width: 50%;
   margin-top: 50px;
+}
+.info span ul {
+  position: absolute;
+  top: 80%;
+  left: 35%;
+  width: 50%;
 }
 
 .video-nav li {
@@ -639,20 +647,7 @@ input:focus {
   background: #e1701a;
   color: #fff;
 }
-.email-tag {
-  position: absolute;
 
-  bottom: -30px;
-  right: -20px;
-  background: #e1701a;
-  color: #fff;
-  width: 80%;
-  height: 10%;
-  padding: 16px 4px 16px 0;
-  border-radius: 6px;
-  font-size: 13px;
-  box-shadow: 10px 10px 40px -14px #000;
-}
 .form-con {
   margin: 0 5px 0 15px;
 }
@@ -666,11 +661,9 @@ input:focus {
   font-size: 42px;
 }
 .social-contact {
-  margin: -20% 0 0 45%;
+  margin-left: -10%;
 }
-.fa-linkedin {
-  color: #0077b5;
-}
+.fa-linkedin,
 .fa-instagram-square {
-  color: #8a3ab9;
+  color: #494b4d;
 }
