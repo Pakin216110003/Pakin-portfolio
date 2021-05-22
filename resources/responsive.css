@@ -230,7 +230,7 @@
     width: 100%;
   }
   .section--5 {
-    margin-top: 70%;
+    margin-top: 100%;
     height: 40vh;
   }
   .cv-button {
@@ -297,6 +297,7 @@
     width: 125px;
     height: 200px;
     left: -58px;
+    top: -30px;
   }
   .video-info .info p,
   .video-info .info span ul li {
@@ -319,14 +320,28 @@
   }
   .cv-button {
     margin-left: 15%;
+    margin-top: 10px;
   }
   .form {
     width: 60%;
-    margin-left: 15%;
+    margin-left: 20%;
   }
   .social-contact ul li {
     display: inline-block;
     margin-top: 15px;
     margin-left: 5px;
+  }
+  .section--6 {
+    margin-top: 40%;
+  }
+  .info span ul li {
+    width: 20px;
+    margin-top: 2px;
+  }
+  .section--5 {
+    margin-top: 150px;
+  }
+  .section-6-title {
+    margin-bottom: 200px;
   }
 }
